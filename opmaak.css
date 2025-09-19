@@ -32,15 +32,4 @@ ul li a:hover {
   background-color: #111111;
 }
 
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-  border: 1px solid black;
-}
 
-img {
-  width: 50%;
-  height: 50%;
-}
