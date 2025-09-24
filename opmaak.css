@@ -43,3 +43,23 @@ ul li a:hover {
 p {
   font-size: 16px; 
 }
+
+.content {
+  display: flex;
+  max-width: 900px;     
+  margin: 40px auto;    
+  gap: 20px;              
+  align-items: flex-start;
+}
+
+.mijnfoto {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;     
+}
+
+.text-blok {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 1.6;
+}
