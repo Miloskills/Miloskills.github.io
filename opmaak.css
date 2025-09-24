@@ -32,11 +32,14 @@ ul li a:hover {
   background-color: #f8f4f4;
 }
 
-img {
+
+.mijnfoto {
   display: block;
-  margin: left;
-  width: ; 20px
+  margin: 0 auto 20px auto; 
+  width: 150px; 
 }
 
-text { 40px
+
+p {
+  font-size: 16px; 
 }
