@@ -1,10 +1,14 @@
 body {
   background-color: rgb(245, 240, 240);
+  font-family: Arial, sans-serif;
+  color: rgb(3, 3, 3);
+  line-height: 1.6;
 }
 
 h1 {
   color: rgb(5, 5, 5);
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 ul {
@@ -48,6 +52,7 @@ p {
   margin: 40px auto;    
   gap: 20px;              
   align-items: flex-start;
+  text-align: left;
 }
 
 .text-blok {
@@ -67,4 +72,11 @@ p {
   z-index: 1000;
   background-color: white;
   padding: 5px;
+}
+
+/* iframe styling */
+iframe {
+  border-radius: 8px;
+  max-width: 320px;
+  height: 180px;
 }
