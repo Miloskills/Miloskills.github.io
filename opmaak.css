@@ -63,6 +63,7 @@ p {
 
 /* Styling voor de afbeelding rechtsonder */
 #rechter-onder-foto {
+  position: absolute;
   bottom: 20px;
   right: 20px;
   width: 250px;
