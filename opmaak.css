@@ -93,3 +93,13 @@ iframe {
   left: 20px;
   border-radius: 8px;
 }
+
+.footer {
+  position: sticky;
+  left: 0%;
+  bottom: 0px;
+  width: 100%;
+  background-color: #eba020;
+  color: black;
+  text-align: center;
+}
