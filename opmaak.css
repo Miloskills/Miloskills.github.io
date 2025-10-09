@@ -74,6 +74,12 @@ p {
   padding: 5px;
 }
 
+#rechter-boven-foto {
+  position:fixed;
+  top: 0px;
+  width: 100%;
+}
+
 /* iframe styling */
 iframe {
   border-radius: 8px;
