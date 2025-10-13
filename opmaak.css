@@ -1,27 +1,27 @@
 body {
-  background-color: rgb(245, 240, 240);
-  font-family: Arial, sans-serif;
-  color: rgb(3, 3, 3);
-  line-height: 1.6;
-}
+  background-color: rgb(245, 240, 240); /* Dit is de achtergrond kleur van mijn website. */
+  font-family: Arial, sans-serif; /* Dit is het lettertype van mijn tekst. */
+  color: rgb(3, 3, 3); /* Dit is de kleur van mijn tekst. */
+  line-height: 1.6; /* Dit is de ruimte tussen regels tekst */
+} 
 
 h1 {
-  color: rgb(5, 5, 5);
-  margin-left: 20px;
-  margin-top: 20px;
-}
+  color: rgb(5, 5, 5); /* Dit is de kleur van de tekst. */
+  margin-left: 20px; /* Dit is hoeveel px het van de rechterkant af ligt. */
+  margin-top: 20px; /* Dit is hoeveel px het van de onderkant af ligt */
+} 
 
 ul {
-  list-style-type: none;
+  list-style-type: none; 
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #eba020;
-}
+} /* Dit is voor de zoekbalk bovenaan met de kleur oranje. */
 
 ul li {
   float: left;
-}
+} /* Zorgt ervoor dat alle <li> elementen binnen <ul> naast elkaar komen. */
 
 ul li a {
   display: block;
@@ -29,22 +29,22 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+} /* Zorgt ervoor dat de zoekbalk het goed doet*/
 
 ul li a:hover {
   background-color: #f8f4f4;
-}
+} /* Dit zorgt ervoor dat als je met je muis ergens overheen gaat het een andere kleur wordt. */
 
 .mijnfoto {
   display: block;
   margin: 0 auto 20px auto; 
   width: 150px; 
   border-radius: 8px;
-}
+} /* Zorgt ervoor dat een foto mooie ronde hoeken heeft (styling). */
 
 p {
   font-size: 16px; 
-}
+} /* Dit is de letter grootte van de tekst binnen een <p> element. */
 
 .content {
   display: flex;
@@ -53,13 +53,13 @@ p {
   gap: 20px;              
   align-items: flex-start;
   text-align: left;
-}
+} /* Zorgt ervoor dat het een tekstblok heeft en een mooie lay-out. */
 
 .text-blok {
   max-width: 600px;
   font-size: 16px;
   line-height: 1.6;
-}
+} /* Dit is voor de tekst die je typt. */
 
 /* Styling voor de afbeelding rechtsonder */
 #rechter-onder-foto {
@@ -78,21 +78,21 @@ p {
   position:absolute;
   top: 80px;
   right: 10px;
-  width: 150px;
-}
+  width: 150px; 
+} /* Dit zorgt ervoor dat de foto aan de rechter boven kant komt te staan. */
 
-/* iframe styling */
+/* afbeelding en video styling */
 iframe {
   border-radius: 8px;
   max-width: 320px;
   height: 180px;
-}
+} 
 
 iframe {
   bottom: 20px;
   left: 20px;
   border-radius: 8px;
-}
+} /* Dit is voor een afbeelding en video om hem op de goede plek te zetten. */
 
 .footer {
   position: sticky;
@@ -102,4 +102,4 @@ iframe {
   background-color: #eba020;
   color: black;
   text-align: center;
-}
+} /* Hier heb ik een balk gemaakt die onderaan komt met de kleuren oranje en zwart.*/
